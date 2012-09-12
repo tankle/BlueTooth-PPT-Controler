@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_001"
+    >
+<!-- 
+<Button
+    android:id="@+id/devBtn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/getDevicesList"
+    
+     />
+ -->
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@drawable/play"
+            android:text="@string/play" android:clickable="false"/>
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/exit"
+            android:text="@string/quit" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:paddingBottom="10px" >
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/left"
+            android:text="@string/left" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/right"
+            android:text="@string/right" />
+    </TableRow>
+	
+       <TableRow 
+           android:layout_weight="1"
+        android:paddingBottom="10px" 
+           >
+            <Button
+            android:id="@+id/left_click"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mouse_select_left"
+            android:text="@string/left_click" />
+            
+           <Button
+               android:id="@+id/right_click"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="@drawable/mouse_select_right"
+               android:text="@string/right_click" />
+
+
+       </TableRow>
+</TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:title="Select" >
+        <menu>
+            <group android:id="@+id/noncheckable_group" 
+            android:checkableBehavior="none">
+           <item android:id="@+id/select_dev" 
+           	android:title="选择蓝牙设备列表" 
+           	android:alphabeticShortcut="s" />
+            </group>
+        </menu>
+    </item>
+    
+    
+    
+</menu>
